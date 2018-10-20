@@ -14,6 +14,7 @@ RUN apk update \
                 py3-cryptography \
                 libffi-dev \
                 musl-dev \
+                gcc \
                 openssl-dev \
                 jpeg-dev \
     && cp -r -f /usr/share/zoneinfo/Hongkong /etc/localtime
