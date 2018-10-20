@@ -12,6 +12,7 @@ RUN apk update \
                 python3-dev \
                 py3-cffi  \
                 py3-cryptography \
+                libffi-dev \
                 musl-dev \
                 openssl-dev \
                 jpeg-dev \
