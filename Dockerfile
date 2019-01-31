@@ -1,4 +1,4 @@
-FROM python:3.7.0-alpine3.8
+FROM python:3.7.2-alpine3.8
 LABEL maintainer Waylon Wang <waylon.act@gmail.com>
 
 RUN echo "https://mirror.tuna.tsinghua.edu.cn/alpine/v3.8/main" > /etc/apk/repositories
